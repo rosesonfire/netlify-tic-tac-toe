@@ -19,7 +19,6 @@
     "graphql": "^15.4.0",
     "class-validator": "^0.12.2",
     "type-graphql": "^1.1.1",
-    "redis": "^3.0.2",
     "reflect-metadata": "^0.1.13",
     "uuid": "^8.3.2"
   },
@@ -29,7 +28,6 @@
     "@types/node": "^12.12.21",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
-    "@types/redis": "^2.8.28",
     "@types/uuid": "^8.3.0",
     "babel-loader": "^8.2.1",
     "eslint": "^7.13.0",

@@ -2,9 +2,6 @@ import { Environment } from '@constants';
 
 const COMMON_CONFIG = {
   NEW_LOGS_TOPIC: 'NEW_LOGS',
-  REDIS_GAME_KEY: 'game',
-  REDIS_HOST: 'redis',
-  REDIS_PORT: 6379,
 };
 
 const DEVELOPMENT_CONFIG = {

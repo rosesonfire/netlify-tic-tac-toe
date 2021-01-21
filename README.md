@@ -6,7 +6,6 @@ A simple tic tac toe game with
 - Redux-obervables
 - GraphQL
 - NextJS
-- Redis
 
 <img src="tic_tac_toe.gif" width="600"/>
 
@@ -74,7 +73,6 @@ Forked code from my other project: [Understand Qur'an](https://github.com/roseso
 
 - [front-end](front-end/README.md): the React front end
 - [api-server](api-server/README.md): a graphQL server for serving the data
-- [redis](redis/README.md): a Redis server for storing the temporary data
 
 # Production
 
@@ -84,7 +82,6 @@ Set `ENV=production` in [.env](.env).
 
 - front-end: http://localhost:3000
 - api-server: http://localhost:4000
-- redis: http://localhost:6379 (Same as development)
 - [Static site generation](front-end/README.md#Static-site-generation-with-NextJS)
 
 # Development
@@ -95,7 +92,6 @@ Set `ENV=development` in [.env](.env).
 
 - front-end: http://localhost:3001
 - api-server: http://localhost:4001
-- redis: http://localhost:6379 (Same as production)
 
 ## Debug
 

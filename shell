@@ -3,10 +3,4 @@
 set -x
 set -e
 
-# Because the redis container does not have /bin/bash
-if [ "$1" = "redis" ]
-then
-  docker-compose exec redis /bin/sh
-else
-  docker-compose exec -w /code $1 /bin/bash
-fi
+docker-compose exec -w /code $1 /bin/bash
